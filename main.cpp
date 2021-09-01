@@ -12,7 +12,7 @@ std::vector<std::string> InputTwoCities(); // Input duas cidades
 std::vector<std::string> InputMultipleCities(); // Input várias cidades
 
 int main() {
-    string filename = "/home/gustavo/DellDesafio/DNIT-Distancias.csv"; //Path para o file a ser lido
+    string filename = "DNIT-Distancias.csv"; //Path para o file a ser lido
     Array2D arr_2d = ReadCsv(filename); // Cria uma array 2-D com todos os dados da planilha
     Map city_to_index = CreateMap(arr_2d); // Cria um map que atribui um index para cada cidade
 
